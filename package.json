@@ -1,0 +1,31 @@
+{
+  "name": "gitown",
+  "version": "1.0.0",
+  "description": "A command line utility to get the top experts/contributors",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn ./src/index.ts",
+    "start": "ts-node ./src/index.ts"
+  },
+  "bin": {
+    "gitown": "src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithyakng/gitown.git"
+  },
+  "author": "Adithya Koti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adithyakng/gitown/issues"
+  },
+  "homepage": "https://github.com/adithyakng/gitown#readme",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^22.7.5",
+    "commander": "^12.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
